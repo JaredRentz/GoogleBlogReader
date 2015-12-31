@@ -14,6 +14,7 @@
 		7FB3E80B1C357891000867F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3E8091C357891000867F9 /* Main.storyboard */; };
 		7FB3E80D1C357891000867F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3E80C1C357891000867F9 /* Assets.xcassets */; };
 		7FB3E8101C357891000867F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB3E80E1C357891000867F9 /* LaunchScreen.storyboard */; };
+		7FB3E81D1C358272000867F9 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB3E81C1C358272000867F9 /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7FB3E80C1C357891000867F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FB3E80F1C357891000867F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB3E8111C357891000867F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB3E81C1C358272000867F9 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,10 @@
 		7FB3E7F41C357891000867F9 = {
 			isa = PBXGroup;
 			children = (
+				7FB3E81B1C358256000867F9 /* Model */,
+				7FB3E81A1C358216000867F9 /* DataSource */,
+				7FB3E8191C35820D000867F9 /* View */,
+				7FB3E8171C3581F6000867F9 /* Controller */,
 				7FB3E7FF1C357891000867F9 /* Blogg Reader */,
 				7FB3E7FE1C357891000867F9 /* Products */,
 			);
@@ -68,6 +74,35 @@
 				7FB3E8021C357891000867F9 /* Blogg_Reader.xcdatamodeld */,
 			);
 			path = "Blogg Reader";
+			sourceTree = "<group>";
+		};
+		7FB3E8171C3581F6000867F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7FB3E8191C35820D000867F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7FB3E81A1C358216000867F9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				7FB3E81C1C358272000867F9 /* DataSource.swift */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		7FB3E81B1C358256000867F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +179,7 @@
 			files = (
 				7FB3E8041C357891000867F9 /* Blogg_Reader.xcdatamodeld in Sources */,
 				7FB3E8011C357891000867F9 /* AppDelegate.swift in Sources */,
+				7FB3E81D1C358272000867F9 /* DataSource.swift in Sources */,
 				7FB3E8061C357891000867F9 /* MasterViewController.swift in Sources */,
 				7FB3E8081C357891000867F9 /* DetailViewController.swift in Sources */,
 			);
